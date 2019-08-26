@@ -1,4 +1,4 @@
-require_relative 'findable.rb'
+require_relative 'findable'
 class Artist
   extend Concerns::Findable
   attr_accessor :name, :song, :musiclibrarycontroller, :musicimporter
