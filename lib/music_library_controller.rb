@@ -4,6 +4,7 @@ class MusicLibraryController
   end
 
   def call
+    puts "Welcome to your music library!"
     user_input = gets.chomp
     while user_input != "exit"
       if user_input == "list songs"
