@@ -14,7 +14,7 @@ class Artist
     @songs.collect do |song|
       song.genre
     end
-    genres.uniq
+    
   end 
   
   def add_song(song)
